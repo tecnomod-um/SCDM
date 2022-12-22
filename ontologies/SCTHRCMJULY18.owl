@@ -1,0 +1,4660 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://snomed.info/sct/HRCMJULY18.owl#"
+     xml:base="http://snomed.info/sct/HRCMJULY18.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://snomed.info/sct/HRCMJULY18.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://snomed.info/id/116676008 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/116676008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Associated morphology (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/116686009 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/116686009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has specimen (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/118168003 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/118168003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen source morphology (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/118169006 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/118169006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen source topography (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/118170007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/118170007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen source identity (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/118171006 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/118171006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen procedure (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/123005000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/123005000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/733928003"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Part of (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/127489000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/127489000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762951001"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://snomed.info/id/127489000"/>
+            <rdf:Description rdf:about="http://snomed.info/id/738774007"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has active ingredient (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/131195008 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/131195008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subject of information (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246075003 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246075003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/47429007"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://snomed.info/id/246075003"/>
+            <rdf:Description rdf:about="http://snomed.info/id/738774007"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Causative agent (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246090004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246090004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Associated finding (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246093002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246093002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://snomed.info/id/246093002"/>
+            <rdf:Description rdf:about="http://snomed.info/id/738774007"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Component (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246112005 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246112005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severity (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246454002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246454002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Occurrence (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246456000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246456000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Episodicity (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246501002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246501002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technique (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246513007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246513007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Revision status (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246514001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246514001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Units (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/255234002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/255234002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/726633004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">After (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/260507000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/260507000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Access (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/260686004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/260686004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/260870009 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/260870009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priority (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/263502005 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/263502005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical course (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/272741003 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/272741003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laterality (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/288556008 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/288556008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/726633004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Before (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363589002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363589002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Associated procedure (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363698007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363698007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding site (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363699004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363699004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/405815000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct device (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363700003 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363700003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/405816004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct morphology (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363701004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363701004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://snomed.info/id/363701004"/>
+            <rdf:Description rdf:about="http://snomed.info/id/738774007"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct substance (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363702006 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363702006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has focus (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363703001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363703001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has intent (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363704007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363704007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure site (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363705008 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363705008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has definitional manifestation (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363709002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363709002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/405816004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indirect morphology (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363710007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363710007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/405815000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indirect device (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363713009 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363713009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has interpretation (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363714003 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363714003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interprets (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370129005 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370129005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measurement method (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370130000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370130000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370131001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370131001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recipient category (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370132008 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370132008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scale type (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370133003 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370133003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen substance (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370134009 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370134009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time aspect (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370135005 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370135005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathological process (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/371881003 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/371881003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/726633004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">During (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/405813007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/405813007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/363704007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure site - Direct (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/405814001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/405814001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/363704007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure site - Indirect (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/405815000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/405815000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure device (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/405816004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/405816004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure morphology (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/408729009 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/408729009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding context (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/408730004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/408730004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure context (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/408731000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/408731000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal context (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/408732007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/408732007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subject relationship context (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/410675002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/410675002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Route of administration (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/411116001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/411116001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has manufactured dose form (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/418775008 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/418775008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding method (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/419066007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/419066007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding informer (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/424226004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/424226004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/405815000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Using device (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/424244007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/424244007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Using energy (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/424361007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/424361007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://snomed.info/id/424361007"/>
+            <rdf:Description rdf:about="http://snomed.info/id/738774007"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Using substance (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/424876005 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/424876005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgical approach (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/425391005 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/425391005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/424226004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Using access device (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/42752001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/42752001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/47429007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Due to (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/47429007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/47429007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Associated with (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/609096000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/609096000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role group (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704319004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704319004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inheres in (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704320005 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704320005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Towards (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704321009 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704321009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterizes (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704322002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704322002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process agent (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704323007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704323007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process duration (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704324001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704324001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process output (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704325000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704325000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relative to (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704326004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704326004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Precondition (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704327008 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704327008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct site (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704346009 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704346009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specified by (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704347000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704347000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observes (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704647008 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704647008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is about (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/718497002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/718497002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inherent location (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/719715003 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/719715003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relative to part of (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/719722006 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/719722006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has realization (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/726542003 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/726542003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has disposition (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/726633004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/726633004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/47429007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporally related to (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/732943007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/732943007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has basis of strength substance (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/732944001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/732944001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has presentation strength numerator value (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/732945000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/732945000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has presentation strength numerator unit (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/732946004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/732946004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has presentation strength denominator value (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/732947008 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/732947008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has presentation strength denominator unit (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733722007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733722007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has concentration strength denominator unit (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733723002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733723002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has concentration strength denominator value (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733724008 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733724008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has concentration strength numerator value (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733725009 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733725009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has concentration strength numerator unit (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733928003 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733928003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All or part of (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733930001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733930001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/123005000"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regional part of (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733931002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733931002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/123005000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constitutional part of (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733932009 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733932009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/123005000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systemic part of (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733933004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733933004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/123005000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lateral half of (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/734136001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/734136001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contained in (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/734137005 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/734137005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tributary of (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736472000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736472000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has dose form administration method (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736473005 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736473005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has dose form transformation (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736474004 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736474004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has dose form intended site (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736475003 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736475003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has dose form release characteristic (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736476002 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736476002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has basic dose form (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736518005 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736518005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has state of matter (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/738774007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/738774007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is modification of (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/762705008 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/762705008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept model object attribute (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/762949000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/762949000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/127489000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has precise active ingredient (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/762951001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/762951001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has ingredient (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/763032000 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/763032000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has unit of presentation (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/766939001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/766939001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plays role (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/766952006 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/766952006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of base of active ingredient (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/766953001 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/766953001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of active ingredient (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/766954007 -->
+
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/766954007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Count of base and modification pair (attribute)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://snomed.info/id/103356009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/103356009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106234000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uncommon (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/103379005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/103379005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/309825002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedural approach (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/105455006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/105455006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/303118004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Donor for medical or surgical procedure (person)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/105590001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/105590001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance (substance)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/105904009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/105904009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type of drug preparation (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/106232001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/106232001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272099008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adjectival modifier (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/106233006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/106233006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106232001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topographical modifier (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/106234000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/106234000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106232001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General adjectival modifier (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/106239005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/106239005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modifier mainly for procedure (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/107733003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/107733003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/128927009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/129325002"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Introduction (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/108252007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/108252007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory procedure (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/117362005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/117362005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/26716007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nominal value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/117363000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/117363000">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/26716007"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/398195001"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ordinal value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/117364006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/117364006">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/278444000"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narrative value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/117365007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/117365007">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/398195001"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ordinal OR quantitative value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/117444000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/117444000">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/278444000"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Text value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/118234003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/118234003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/363698007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/442083009"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding by site (finding)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/118240005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/118240005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/418775008"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/71388002"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding by method (finding)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/118598001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/118598001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property of measurement (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/118956008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/118956008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/123037004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Body structure, altered from its original anatomical structure (morphologic abnormality)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/119270007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/119270007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/129271007"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Management procedure (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/123037004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/123037004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Body structure (body structure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/123038009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/123038009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen (specimen)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/125676002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/125676002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/48176007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person (person)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/127454002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/127454002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/123038009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/118170007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/49062001"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Device specimen (specimen)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/127789004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/127789004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/108252007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory procedure categorized by method (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/128927009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/128927009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/129264002"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure by method (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129125009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/129125009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/243796009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/288532009"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410510008"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure with explicit context (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129264002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/129264002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129265001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/129265001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/129264002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaluation - action (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129271007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/129271007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/129264002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Management - action (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129284003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/129284003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/129264002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgical action (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129325002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/129325002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/129264002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Introduction - action (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129438006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/129438006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/129271007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prescription - action (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129445006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/129445006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/129325002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administration - action (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/133928008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/133928008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/48176007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Community (social concept)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/138875005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/138875005">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMED CT Concept (SNOMED RT+CTV3)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/15240007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/15240007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410512000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Current (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/160266009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/160266009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/243796009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410516002"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410589000"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/444148008"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No family history of clinical finding (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/16076005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/16076005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/119270007"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/129438006"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prescription (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/161615003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/161615003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/129125009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/363589002"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/387713003"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/385658003"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410513005"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History of surgery (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/162467007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/162467007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/373572006"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/246090004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/418799008"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410516002"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410512000"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Free of symptoms (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/182353008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/182353008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272424004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Side (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/182849000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/182849000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/129125009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/363589002"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/33633005"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/385660001"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410511007"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No drug therapy prescribed (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/183932001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/183932001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/129125009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410536001"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410511007"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure contraindicated (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/183976008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/183976008">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/129125009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/363589002"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/387713003"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/397943006"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410512000"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operative procedure planned (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/24028007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/24028007">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106233006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/182353008"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/243796009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/243796009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Situation with explicit context (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/254291000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/254291000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staging and scales (staging scale)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/255231005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/255231005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272127001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Revision - value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/257958009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/257958009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272127001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Part of multistage procedure (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/258349007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/258349007">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/264752007"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/303102005"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grades (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/260245000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/260245000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Findings values (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/260299005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/260299005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/260787004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/260787004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical object (physical object)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/261424001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/261424001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/399455000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary operation (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/261665006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/261665006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410514004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unknown (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/263680009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/263680009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/769247005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune process (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/263714004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/263714004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272099008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colors (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/264752007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/264752007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272396007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grading values (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/26716007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/26716007">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/278444000"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualitative (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272099008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/272099008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descriptor (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272103003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/272103003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272099008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time patterns (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272125009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/272125009">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/272103003"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Priorities (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272126005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/272126005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272103003"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Order values (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272127001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/272127001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272126005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event orders (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272141005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/272141005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/258349007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severities (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272379006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/272379006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event (event)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272394005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/272394005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technique (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272396007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/272396007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranked categories (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272424004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/272424004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/309825002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relative sites (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272425003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/272425003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272424004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General site descriptor (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/275935009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/275935009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/183932001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/363589002"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/387713003"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410536001"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410511007"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgery contraindicated (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/276339004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/276339004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/308916002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environment (environment)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/277302009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/277302009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272099008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natures (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/277367001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/277367001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/277302009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nature of procedure values (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/278444000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/278444000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scales type (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/281586009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/281586009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special atomic mapping values (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/282032007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/282032007">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/307142001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/703763000"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periods of life (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/284009009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/284009009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Route of administration value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/288524001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/288524001">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272103003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/303102005"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Courses (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/288526004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/288526004">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272103003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/303102005"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Episodicities (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/288529006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/288529006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Context values (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/288532009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/288532009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/288529006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Context values for actions (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/297249002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/297249002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/129125009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/385658003"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410511007"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/444148008"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of procedure (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/303071001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/303071001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/125676002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person in the family (person)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/303102005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/303102005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/281586009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special disorder atoms (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/303118004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/303118004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/125676002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person in the healthcare environment (person)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/307142001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/307142001">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272103003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/303102005"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal periods (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/30766002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/30766002">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/398195001"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/308489006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/308489006">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/303102005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/719982003"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathological process (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/308490002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/308490002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/308489006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathological developmental process (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/308916002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/308916002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environment or geographical location (environment / location)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/309038006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/309038006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/387713003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/424876005"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/103379005"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operations by approach (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/309049000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/309049000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/123038009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/118168003"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/49755003"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lesion sample (specimen)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/309795001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/309795001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/309825002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgical access values (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/309825002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/309825002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spatial and relational concepts (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/33633005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/33633005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/16076005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prescription of drug (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/35359004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/35359004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/48176007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family (social concept)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/362958002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/362958002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/363704007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/442083009"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure by site (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/362961001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/362961001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/363703001"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/363675004"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure by intent (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/362981000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/362981000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualifier value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/363186003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/363186003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/107733003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/129325002"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/363701004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/105590001"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/405814001"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/442083009"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Introduction of substance by body site (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/363675004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/363675004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/277367001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intents (nature of procedure values) (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/363691001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/363691001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/405815000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/49062001"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure categorized by device involved (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/363787002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/363787002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observable entity (observable entity)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/36692007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/36692007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410514004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Known (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/370115009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/370115009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special concept (special concept)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/371148001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/371148001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/442499005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ability interpretation value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/371150009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/371150009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/371148001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Able (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/371151008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/371151008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/371148001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unable (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/371157007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/371157007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/371148001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Able with difficulty (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/373572006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/373572006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/243796009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410516002"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410512000"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical finding absent (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/373573001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/373573001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/243796009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410515003"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410512000"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical finding present (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/373873005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/373873005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmaceutical / biologic product (product)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/385644000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/385644000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/385649005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Requested (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/385649005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/385649005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410522006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Being organized (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/385656004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/385656004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410523001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ended (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/385658003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/385658003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/385656004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Done (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/385660001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/385660001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/288532009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not done (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/386053000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/386053000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/129265001"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaluation procedure (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/387713003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/387713003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/128927009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/129284003"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgical procedure (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/389109008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/389109008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/48176007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group (social concept)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/397943006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/397943006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/385649005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planned (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/398195001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/398195001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/278444000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measurement scales (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/399455000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/399455000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/277367001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary procedure (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/400999005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/400999005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/129125009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/385644000"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410512000"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure requested (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/404684003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/404684003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical finding (finding)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/405613005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/405613005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/129125009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/397943006"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410512000"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planned procedure (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/407559004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/407559004">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/57177007"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/261665006"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410511007"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/444148008"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history unknown (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/408766003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/408766003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/363702006"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/71388002"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure with a procedure focus (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/408767007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/408767007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/363702006"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/404684003"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure with a clinical finding focus (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410510008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410510008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/288529006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal context value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410511007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410511007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410510008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Current or past (actual) (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410512000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410512000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410511007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Current or specified time (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410513005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410513005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410511007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In the past (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410514004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410514004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/288529006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding context value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410515003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410515003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/36692007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Known present (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410516002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410516002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/36692007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Known absent (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410521004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410521004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410522006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not to be done (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410522006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410522006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/288532009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pre-starting action status (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410523001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410523001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/288532009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-starting action status (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410529002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410529002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410521004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not needed (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410533009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410533009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/260870009"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/272125009"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure by priority (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410536001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410536001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/288532009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contraindicated (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410586007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410586007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410512000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specified time (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410587003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410587003">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/410513005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/410586007"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Past - time specified (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410589000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410589000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410587003"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All times past (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410590009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410590009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/36692007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Known possible (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410604004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410604004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/419358007"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subject of record (person)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410607006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410607006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organism (organism)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410771003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/410771003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/387713003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/363702006"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/404684003"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgical procedure for clinical finding and/or disorder (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/413350009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/413350009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/243796009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410514004"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410510008"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding with explicit context (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/415684004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/415684004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410590009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suspected (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/416128008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/416128008">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/129125009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/385660001"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410589000"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No history of procedure (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/416237000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/416237000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/129125009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/385660001"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410511007"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure not done (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/416471007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/416471007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/57177007"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410515003"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410511007"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/444148008"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of clinical finding (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/416940007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/416940007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/243796009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/385658003"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410513005"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Past history of procedure (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/417662000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/417662000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/243796009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410515003"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410513005"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History of clinical finding in subject (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/418799008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/418799008">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/419066007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/419358007"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Finding reported by subject or history provider (finding)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/419026008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/419026008">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/246075003"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/78621006"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Effect of exposure to physical force (finding)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/419358007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/419358007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/125676002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subject of record or other provider of history (person)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/419891008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/419891008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Record artifact (record artifact)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/420158005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/420158005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/303118004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Performer of method (person)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/430722000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/430722000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/297249002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/363589002"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/387713003"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/385658003"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410511007"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/444148008"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history of operative procedure (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/432102000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/432102000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/107733003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/129445006"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/363701004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/105590001"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administration of substance (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/433590000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/433590000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/432102000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/129445006"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/363701004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/105590001"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/410675002"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/284009009"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administration of substance via specific route (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/439763000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/439763000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/129125009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/288532009"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410510008"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/444148008"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure on family member (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/441742003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/441742003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/363714003"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/386053000"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaluation finding (finding)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/441862004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/441862004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/308489006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infectious process (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/442083009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/442083009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/123037004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical or acquired body structure (body structure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/442499005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/442499005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/260245000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interpretation value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/443508001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/443508001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/413350009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410516002"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410589000"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No history of clinical finding in subject (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/443859009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/443859009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/413350009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410590009"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410512000"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Possible clinical finding (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/443938003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/443938003">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/129125009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/385658003"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410512000"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure carried out on subject (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/444018008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/444018008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/125676002"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person with characteristic related to subject of record (person)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/444148008 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/444148008">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/303071001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/444018008"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person in family of subject (person)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/444433005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/444433005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/413350009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/415684004"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410512000"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suspected clinical finding (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/445405002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/445405002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/123038009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/118171006"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/387713003"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen obtained by surgical procedure (specimen)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/472918004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/472918004">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/123038009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/118170007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/49062001"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/370133003"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/105590001"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance specimen obtained from device (specimen)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/472963003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/472963003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/308489006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypersensitivity process (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/48176007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/48176007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social context (social concept)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/49062001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/49062001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/260787004"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Device (physical object)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/49755003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/49755003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/118956008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morphologically abnormal structure (morphologic abnormality)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/57177007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/57177007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/243796009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410511007"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/444148008"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family history with explicit context (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/703763000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/703763000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Precondition value (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/71388002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/71388002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure (procedure)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/719982003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/719982003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/726711005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/726711005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disposition (disposition)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/72906007 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/72906007">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106234000"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/272425003"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/732935002 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/732935002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/767524001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unit of presentation (unit of presentation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/736542009 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/736542009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/105904009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmaceutical dose form (dose form)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/7389001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/7389001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time frame (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/762450006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/762450006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/243796009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/385660001"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410511007"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408730004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410536001"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410511007"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/408732007"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/410604004"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Procedure not done because contraindicated (situation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/766739005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/766739005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/726542003"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/726711005"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance categorized by disposition (substance)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/766940004 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/766940004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Role (role)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/767524001 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/767524001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unit of measure (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/769247005 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/769247005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/308489006"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal immune process (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/7771000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/7771000">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106233006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/182353008"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left (qualifier value)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/78621006 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/78621006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical force (physical force)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/900000000000441003 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/900000000000441003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMED CT Model Component (metadata)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/91723000 -->
+
+
+    <owl:Class rdf:about="http://snomed.info/id/91723000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/442083009"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure (body structure)</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0.2017-03-29T23:31:42Z) https://github.com/owlcs/owlapi/ -->
+
+
