@@ -2,7 +2,7 @@
 
 This folder contains the results of the surveys completed by the users after using the application:
 
-  - [Q1.pdf](./Q1.pdf) SUS: A 'quick and dirty' Usability Scale.
+  - [Q1.pdf](./Q1.pdf) SUS: A 'quick and dirty' Usability Scale[^1].
   - [Q2.pdf](./Q2.pdf) custom survey regarding the background of the participants and the concrete domain of the use case.
 
 In particular, the participants were asked to perform the following queries before filling the surveys:
@@ -12,3 +12,5 @@ In particular, the participants were asked to perform the following queries befo
   3. Get the results of all memory assessments for the female patients from the Bateria dataset.
   4. Get the results of all memory assessments from the Bateria dataset and all the GNPT tasks related with memory training for all female patients.
   5. Get all patients from FIM and Barthel datasets that were independent for getting in and out the shower in FIM and dependent for it in Barthel. The Barthel assessment should be after the FIM assessment.
+
+[^1] Brooke, J. (1996). SUS-A quick and dirty usability scale. *Usability evaluation in industry, 189(194)*, 4-7.
