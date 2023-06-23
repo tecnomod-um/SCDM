@@ -59,9 +59,12 @@ Based on this classification, we did not find any concept not covered. Most of t
 
 
 ## Query interface
-
+### Demonstration
 Several videos of the developed query interface are available, in which we used the application to perform the following queries:
 
 
 - [Use case 1](./demonstration/use_case_1.mp4): Take patients with suffered the stroke when they were between 12 and 40 years old. From these patients, select those who improved the memory digit test from Bateria evaluation (they get a score lower than 5 first, and greater than 5 later), and show the GNPT rehabilitation tasks regarding memory training they perform in between the bateria evaluations.
 - [Use case 2](./demonstration/use_case_2.mp4): Get the wrist stability assessment at admission using Fugl-Meyer evaluation of female patients. In this case, the query retrieve results from two heterogeneous datasets that were harmonized by using the SCDM, namely patients from the [Guttmann Institute](https://www.guttmann.com), and patients from the [Interdisciplinary Comprehensive Arm Rehabilitation Evaluation (ICARE)](https://pubmed.ncbi.nlm.nih.gov/23311856/).
+
+### Usability poll
+The query interface was tested by several end-users, who filled different forms to evaluate the usability of the application. These results are available at [usability_poll folder](./usability_poll).
