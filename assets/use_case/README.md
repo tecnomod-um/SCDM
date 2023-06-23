@@ -18,7 +18,7 @@ The source data was provided by different institutions heterogeneously. The next
 |ICARE               |Fugl-Meyer       |361     |1444   |Evaluation performed in the ICARE consortium by using Fugl-Meyer (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3547701/)                                 |
 |IST3                |IST3             |3035    |3035   |Data from the third international stroke trial (IST-3) of thrombolysis for acute ischaemic stroke (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2442584/)|
 |RiksStroke          |RiksStroke       |210777  |344526 |Data from the Swedish Stroke Register (https://www.riksstroke.org/)                                                                                      |
-|University of Tartu |Estonian Hospital|11142   |211292 |                                                                                                                                                         |
+|University of Tartu |Estonian Hospital|11142   |211292 |Dataset containing conditions and diseases of patients                                                                                                   |
 
 
 After the harmonization process of these datasets, the harmonized graph database consisted of:
