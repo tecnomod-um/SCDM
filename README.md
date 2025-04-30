@@ -20,4 +20,6 @@ On the other hand, the next figure depicts an example of **ObservationResultStat
 ![example of observation result statement](assets/observation_result_statement.png "Observation result statement representing the gender of a patient.")
 
 
-This model has been used in the [Precise4Q project](https://precise4q.eu/). More information on this is shown in the [use_case](./assets/use_case) folder 
+This model was initially proposed as an outcome of the SemanticHealthNet Network of Excellence (NoE), and later refined within the [Precise4Q project](https://precise4q.eu/), where it was formalized as the Semantic Common Data Model (SCDM).
+
+Now it is being used within [STRATIF-AI](https://stratif-ai.eu) and [RES-Q[+]().](https://www.resqplus.eu)
