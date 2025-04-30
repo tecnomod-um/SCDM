@@ -1,0 +1,2131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/catimc/SemanticCommonDataModel#"
+     xml:base="http://www.semanticweb.org/catimc/SemanticCommonDataModel"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sct="http://snomed.info/id/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:btl2="http://purl.org/biotop/btl2.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:field="http://snomed.info/field/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel">
+        <owl:imports rdf:resource="http://snomed.info/sct/ontology_module_stroke/1.1"/>
+        <owl:imports rdf:resource="http://www.semanticweb.org/catimc/SCT_BTL2_2023"/>
+        <dc:title>kjkj</dc:title>
+        <rdfs:label>SCDM</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#time -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#agent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#agent">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProfessional"/>
+        <rdfs:comment>The healthcare professional who performed the action</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#conditionSite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#conditionSite">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#BodyStructure"/>
+        <skos:definition>The body site affected by the condition</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasInformationAboutProvider -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasInformationAboutProvider">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#InformationAboutProviderOfInformation"/>
+        <skos:definition>The agent who provided the information, usually the patient or the clinician, but could be also a device or software. This attribute is optional, since it is often implicit in the information recorded.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasInformationAboutSubject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasInformationAboutSubject">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#InformationAboutSubjectOfInformation"/>
+        <skos:definition>The human subject of information, usually the patient but could also be a family member or another clinically relevant person. There are cases where subject could be more than 1, like information about the mother and child in deliveries. (by default the subject of information is the patient</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:label>Has lower bound</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasObservable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasObservable">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservationResultStatement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableEntity"/>
+        <skos:definition>The observed quality, disposition, function or process. To record several observations of the same phenomenon across time, each phenomenon is represented as a separate observation result statement (each result of certain observation process). Each of the observation process is modelled as subprocess of another observation process that spans during the whole duration of the subprocesses</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasObservableValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasObservableValue">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservationResultStatement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableResultValue"/>
+        <skos:definition>The quantitative or qualitative value regarding the observed phenomenon</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasPart">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+        <skos:definition>An associated ClinicalStatement</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasSubProcess -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasSubProcess">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#isSubProcessOf"/>
+        <rdfs:domain rdf:resource="http://purl.org/biotop/btl2.owl#Process"/>
+        <rdfs:range rdf:resource="http://purl.org/biotop/btl2.owl#Process"/>
+        <skos:definition>A subprocess of the healthcare process (e.g. A measurement process might have individual measurements at certain point in times and that span across the duration of the global measurement process)</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:label>Has upper bound</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#interpretedBySituation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#interpretedBySituation">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservationResultStatement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+        <skos:definition>The situation that interprets the quality / property observed. This is the inverse of the interpretsObservable property.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#interpretsObservable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#interpretsObservable">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableEntity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#isResultOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#isResultOf">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#isOutcomeOf"/>
+        <skos:definition>The process that originates the clinical statement (e.g. diagnostic procedure, history taking, etc.)</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#isSubProcessOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#isSubProcessOf">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#is_family_related_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#is_family_related_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#otherParticipants -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#otherParticipants">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+        <rdfs:range rdf:resource="http://purl.org/biotop/btl2.owl#MaterialObject"/>
+        <skos:definition>Other participants of the action (e.g. the patient, a device, etc.)</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureContext -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureContext">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementActionQualifier"/>
+        <skos:definition>A qualifier that indicates the status of a Procedure, including prior to being initiated or completed (e.g. done, not done, contraindicated, etc.), (by default the value is done).</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureLocation">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureReason -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureReason">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureSite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureSite">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Procedure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#BodyStructure"/>
+        <skos:definition>The body site affected or acted by a procedure</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#representsProcedure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#representsProcedure">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#represents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureStatement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Procedure"/>
+        <skos:definition>The process referred to by the statement</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#representsSituation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#representsSituation">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#represents"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituation"/>
+        <skos:definition>The clinical life phase or situation referred to by the statement. For representing more than one co-occurring situation, a clinical statement about two co-occurring clinical situations is defined as the conjunction of each of them</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#severity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#severity">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementSituationSeverityQualifier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#situationContext -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#situationContext">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementFindingQualifier"/>
+        <skos:definition>A qualifier that represents the condition status, i.e. if it is present, absent, suspected, at risk, unknown, etc. (by default the value is known present)</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#temporalContext -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#temporalContext">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementEpistemicQualifier"/>
+        <skos:definition>A temporal qualifier that temporally qualifies the statement as referring to the past i.e. “history”, “present” or “future” i.e. plan. (by default the temporal context refers to “present”)</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasDosage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasDosage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#processDuration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#processDuration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+        <skos:definition>Duration of the action. Relevant when the start and end point in times of the action are not known</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#processEnd -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#processEnd">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Procedure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <skos:definition>Date or date time the action ended</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#processStart -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#processStart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Procedure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <skos:definition>Date or date time the action began</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#situationEnd -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#situationEnd">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <skos:definition>Estimated or actual date or date time the condition was considered as resolved as reported by the clinician or the patient</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#situationStart -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#situationStart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <skos:definition>Estimated or actual date or date time the condition began as reported by the clinician or the patient</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#subject_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#subject_id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#PointInTime -->
+
+    <rdf:Description rdf:about="http://purl.org/biotop/btl2.owl#PointInTime">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/442083009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/442083009">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#BodyStructure"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionContraindicated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionContraindicated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementActionQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionDone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionDone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementActionQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionNotDone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionNotDone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementActionQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionNotNeeded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionNotNeeded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementActionQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionPlanned -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionPlanned">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementActionQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionRequested -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionRequested">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementActionQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Age">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ObjectQuality"/>
+        <rdfs:label>Age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#AgeAtLessionQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#AgeAtLessionQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Age"/>
+        <rdfs:label>Age at lession</rdfs:label>
+        <skos:prefLabel>Age at lession</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#BodyStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#BodyStructure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#BooleanDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#BooleanDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype"/>
+        <rdfs:label>Boolean datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#CivilStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#CivilStatus">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ObjectQuality"/>
+        <rdfs:label>Civil Status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalHistoryStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalHistoryStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#representsProcedure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Procedure"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#temporalContext"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PastHistoryInformation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#isResultOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HistoryTakingProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureDoneStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureDoneStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureContext"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionDone"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureNotDoneStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureNotDoneStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureContext"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionNotDone"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedurePlannedStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedurePlannedStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#represents"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#PlanExecution"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureContext"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ActionPlanned"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureContext"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementActionQualifier"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#representsProcedure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Procedure"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#conditionSite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#BodyStructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#situationEnd"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#situationStart"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>A clinical situation or “Clinical life phase X” is a temporal part of an entity´s life (e.g. the patient) during which some “Clinical condition X” is present</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationAbsentStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationAbsentStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#FindingKnownAbsentInformation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationPresentStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationPresentStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#KnownPresentInformation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#representsSituation"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#situationContext"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementFindingQualifier"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#interpretsObservable"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableEntity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#severity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementSituationSeverityQualifier"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>A clinical statement about some patient clinical situation</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationUnknownStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationUnknownStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#UnknownInformation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasInformationAboutProvider"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#InformationAboutProviderOfInformation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasInformationAboutSubject"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#InformationAboutSubjectOfInformation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#isResultOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#temporalContext"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementTemporalQualifier"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition xml:lang="en">An information entity, typically the outcome of an assessment or observation process about certain health related aspect, created by a healthcare professional</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#CommonInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#CommonInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementFindingQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ComplexDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ComplexDatatype">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Datatype"/>
+        <rdfs:label>Complex datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#CurrentInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#CurrentInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementTemporalQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#CurrentOrPastInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#CurrentOrPastInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementTemporalQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#Dataset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Dataset">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+        <rdfs:label>Dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#Datatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Datatype">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+        <rdfs:label>Datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DateDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DateDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype"/>
+        <rdfs:label>Date datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DateTimeDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DateTimeDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype"/>
+        <rdfs:label>Datetime datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DateTimeValueRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DateTimeValueRegion">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DateValueRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DateValueRegion">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalNumberPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalNumberPrimitiveDatatype"/>
+        <rdfs:label>Decimal datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalInterval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalInterval">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalIntervalDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalDatatype"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalDatatype"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalIntervalDatatype"/>
+        <rdfs:label>Decimal interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalIntervalDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalIntervalDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericIntervalDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalNumberPrimitiveDatatype"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalNumberPrimitiveDatatype"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericIntervalDatatype"/>
+        <rdfs:label>Decimal interval datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalNumberPrimitiveDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalNumberPrimitiveDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericPrimitiveDatatype"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalDatatype"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DoubleDatatype"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#FloatDatatype"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericPrimitiveDatatype"/>
+        <rdfs:label>Decimal number primitive datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DiagnosticProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DiagnosticProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DiagnosticStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DiagnosticStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isOutcomeOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DiagnosticProcess"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DoubleDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DoubleDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalNumberPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalNumberPrimitiveDatatype"/>
+        <rdfs:label>Double datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DoubleInterval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DoubleInterval">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalIntervalDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DoubleDatatype"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DoubleDatatype"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalIntervalDatatype"/>
+        <rdfs:label>Double interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DurationQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DurationQuality">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ProcessQuality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DurationValueRegion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#DurationValueRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DurationValueRegion">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#EndTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#EndTime">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#PointInTime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#EpistemicQualifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#EpistemicQualifier">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#FamilyHistoryStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#FamilyHistoryStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalHistoryStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#InformationAboutSubjectOfInformation"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#represents"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PersonInFamilyOfSubject"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalHistoryStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#FindingKnownAbsentInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#FindingKnownAbsentInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementFindingQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#FloatDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#FloatDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalNumberPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalNumberPrimitiveDatatype"/>
+        <rdfs:label>Float datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#FloatInterval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#FloatInterval">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalIntervalDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#FloatDatatype"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#FloatDatatype"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalIntervalDatatype"/>
+        <rdfs:label>Float interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#Gender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Gender">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ObjectQuality"/>
+        <rdfs:label>Gender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#agent"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProfessional"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasSubProcess"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#otherParticipants"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#MaterialObject"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#processEnd"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#processStart"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>The action (typically an assessment, observation, recommendation or request) performed by a healthcare professional and whose outcome is a clinical statement which can be recorded at any point during the care process.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProfessional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProfessional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProfessionalRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProfessionalRole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProfessionalRole">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#HistoryTakingProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HistoryTakingProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#InformationAboutOrganization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#InformationAboutOrganization">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#represents"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#InformationAboutProviderOfInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#InformationAboutProviderOfInformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#represents"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#InformationAboutSubjectOfInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#InformationAboutSubjectOfInformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#represents"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype"/>
+        <rdfs:label>Int datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntInterval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntInterval">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerIntervalDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntDatatype"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntDatatype"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerIntervalDatatype"/>
+        <rdfs:label>Int interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype"/>
+        <rdfs:label>Integer datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerInterval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerInterval">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerIntervalDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerDatatype"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerDatatype"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerIntervalDatatype"/>
+        <rdfs:label>Integer interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerIntervalDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerIntervalDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericIntervalDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericIntervalDatatype"/>
+        <rdfs:label>Integer interval datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericPrimitiveDatatype"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntDatatype"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerDatatype"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#LongDatatype"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ShortDatatype"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericPrimitiveDatatype"/>
+        <rdfs:label>Integer number primitive datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#KnownPresentInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#KnownPresentInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementFindingQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#LongDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#LongDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype"/>
+        <rdfs:label>Long datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#LongInterval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#LongInterval">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerIntervalDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#LongDatatype"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#LongDatatype"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerIntervalDatatype"/>
+        <rdfs:label>Long interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#MedicationAdministrationProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#MedicationAdministrationProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Substance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#MedicationAdministrationStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#MedicationAdministrationStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#representsProcedure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#MedicationAdministrationProcess"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureStatement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isOutcomeOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#MedicationPrescriptionProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#MedicationPrescriptionProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#MedicationPrescriptionProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PrescriptionProcess"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Substance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#MedicationPrescriptionStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#MedicationPrescriptionStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalProcedureStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#representsProcedure"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#MedicationPrescriptionProcess"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PrimitiveDatatype"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#BooleanDatatype"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DateDatatype"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DateTimeDatatype"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StringDatatype"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#TimeDatatype"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PrimitiveDatatype"/>
+        <rdfs:label>Non numeric primitive datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericComplexDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericComplexDatatype">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ComplexDatatype"/>
+        <rdfs:label>Numeric complex datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericIntervalDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericIntervalDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericPrimitiveDatatype"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericPrimitiveDatatype"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericComplexDatatype"/>
+        <rdfs:label>Numeric interval datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericPrimitiveDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericPrimitiveDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PrimitiveDatatype"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#DecimalNumberPrimitiveDatatype"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PrimitiveDatatype"/>
+        <rdfs:label>Numeric primitive datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableEntity">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableResultValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableResultValue">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservationResultStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservationResultStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasObservable"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableEntity"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasObservableValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableResultValue"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PreconditionClinicalStatement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#interpretedBySituation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureContext"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementActionQualifier"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#situationContext"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementFindingQualifier"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>A clinical statement that includes information about a quality / property observed. The observed entity might represent:
+- Quality: A characteristic, feature, or property that is inherent in someone or something (e.g. mass of a person, age, etc.)
+Disposition: A characteristic or feature that is not always realized in full (e.g. antibiotic susceptibility)
+- Function: The ability of a person, some part of a person, or a thing to perform activities or realize processes (e.g. ability to walk)
+- Process: A process or outcome of a process (e.g. heart rate)
+The statements can be qualitative, if the absence or presence of a property is stated, or quantitative if a numerical value is attached to the observed phenomenon by counting or measuring.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Organization">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#MaterialObject"/>
+        <rdfs:label>Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#PastHistoryInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PastHistoryInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementTemporalQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#Patient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Patient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PatientRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#PatientRole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PatientRole">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Person">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Organism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#PersonInFamilyOfSubject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PersonInFamilyOfSubject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#is_family_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Patient"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#PhysicalExaminationProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PhysicalExaminationProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#PreconditionClinicalStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PreconditionClinicalStatement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#PrescriptionProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PrescriptionProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#PrimitiveDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PrimitiveDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Datatype"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NumericPrimitiveDatatype"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Datatype"/>
+        <rdfs:label>Primitive datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#Procedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Procedure">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#procedureSite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#BodyStructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#processEnd"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#processStart"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:definition>Activities performed in the provision of healthcare including administration of medicines, imaging, education, therapies, administrative procedures, etc. (e.g. appendectomy, physiotherapy, etc.)</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#QualitativeResultValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#QualitativeResultValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableResultValue"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#represents"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#ValueRegion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#QuantitativeResultValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#QuantitativeResultValue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ObservableResultValue"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PrimitiveDatatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#UnitsOfMeasurement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ShortDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ShortDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerNumberPrimitiveDatatype"/>
+        <rdfs:label>Short datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#ShortInterval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ShortInterval">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerIntervalDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasLowerBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ShortDatatype"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#hasUpperBound"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ShortDatatype"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#IntegerIntervalDatatype"/>
+        <rdfs:label>Short interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#StartTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StartTime">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#PointInTime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementActionQualifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementActionQualifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementEpistemicQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementEpistemicQualifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementEpistemicQualifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#EpistemicQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementFindingQualifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementFindingQualifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementEpistemicQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementSituationSeverityQualifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementSituationSeverityQualifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementEpistemicQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementTemporalQualifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementTemporalQualifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementEpistemicQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#StringDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StringDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype"/>
+        <rdfs:label>String datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#Substance">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Particular"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/biotop/btl2.owl#AmountOfPureSubstance"/>
+                    <rdf:Description rdf:about="http://purl.org/biotop/btl2.owl#CompoundOfCollectiveMaterialEntities"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#SurgicalProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#SurgicalProcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HealthcareProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#SuspectedInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#SuspectedInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementFindingQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#SymptomEvaluationStatement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#SymptomEvaluationStatement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isOutcomeOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#HistoryTakingProcess"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#PhysicalExaminationProcess"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#ClinicalSituationStatement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#TimeDatatype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#TimeDatatype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#NonNumericPrimitiveDatatype"/>
+        <rdfs:label>Time datatype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#TimeValueRegion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#TimeValueRegion">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ValueRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#UncommonInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#UncommonInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementFindingQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#UnitsOfMeasurement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#UnitsOfMeasurement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/SemanticCommonDataModel#UnknownInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/SemanticCommonDataModel#UnknownInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/SemanticCommonDataModel#StatementFindingQualifier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DaysSinceInjuryQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#DaysSinceInjuryQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TimeSinceInjuryQuality"/>
+        <rdfs:label>Days since injury (quality)</rdfs:label>
+        <skos:prefLabel>Days since injury</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MonthsSinceInjuryQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#MonthsSinceInjuryQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TimeSinceInjuryQuality"/>
+        <rdfs:label>Months since injury (quality)</rdfs:label>
+        <skos:prefLabel>Months since injury</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TimeSinceInjuryQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TimeSinceInjuryQuality">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ObjectQuality"/>
+        <rdfs:label>Time since injury (quality)</rdfs:label>
+        <skos:prefLabel>Time since injury</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#YearsSinceInjuryQuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#YearsSinceInjuryQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/catimc/ontologies/2018/7/Precise4Q#TimeSinceInjuryQuality"/>
+        <rdfs:label>Years since injury (quality)</rdfs:label>
+        <skos:prefLabel>Years since injury</skos:prefLabel>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

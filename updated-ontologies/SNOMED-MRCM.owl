@@ -1,0 +1,3922 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="owlapi:MRCM_constraints#"
+     xml:base="owlapi:MRCM_constraints"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://snomed.info/sct/MRCM_constraints">
+        <owl:versionIRI rdf:resource="http://snomed.info/sct/MRCM_constraints/1.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://snomed.info/id/1003703000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/1003703000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/123037004"/>
+        <rdfs:label xml:lang="en">Process extends to (attribute)</rdfs:label>
+        <skos:definition xml:lang="en-gb">This attribute specifies that the process which the property characterises has led to the inclusion of a previously not included structure.</skos:definition>
+        <skos:definition xml:lang="en-us">This attribute specifies that the process which the property characterizes has led to the inclusion of a previously not included structure.</skos:definition>
+        <skos:prefLabel xml:lang="en">Process extends to</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/1003735000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/1003735000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123037004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Process acts on (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies an entity that the process which the property characterizes specifically acts on.</skos:definition>
+        <skos:prefLabel xml:lang="en">Process acts on</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/1148965004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/1148965004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/260787004"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/31874001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/64100000"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Is sterile (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the sterility quality (e.g. sterile or non-sterile) of an object.</skos:definition>
+        <skos:prefLabel xml:lang="en">Is sterile</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/1148967007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/1148967007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/260787004"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/105590001"/>
+        <rdfs:label xml:lang="en">Has coating material (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the material with which an object is coated.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has coating material</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/1148968002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/1148968002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/260787004"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/82280004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/860647008"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Has surface texture (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the tactile characteristic or appearance of the surface of an object.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has surface texture</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/1148969005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/1148969005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/260787004"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/860574003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/863965006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/863968008"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Has absorbability (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the absorbability aspect of an object.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has absorbability</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/1149366004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/1149366004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/1149484003"/>
+        <rdfs:label xml:lang="en">Has ingredient qualitative strength (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents a proxy to a quantitative strength for a particular ingredient contained in a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has ingredient qualitative strength</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/1149367008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/1149367008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/27821000087106"/>
+        <rdfs:label xml:lang="en">Has target population (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the target population in which a product is intended to be used.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has target population</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/116676008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/116676008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/404684003"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/49755003"/>
+        <rdfs:label xml:lang="en">Associated morphology (attribute)</rdfs:label>
+        <skos:altLabel xml:lang="en">Morphology</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Associated morphology</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/116686009 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/116686009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/386053000"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/123038009"/>
+        <rdfs:label xml:lang="en">Has specimen (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has specimen</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/118168003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/118168003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/123038009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/49755003"/>
+        <rdfs:label xml:lang="en">Specimen source morphology (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Specimen source morphology</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/118169006 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/118169006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/123038009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/442083009"/>
+        <rdfs:label xml:lang="en">Specimen source topography (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Specimen source topography</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/118170007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/118170007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/123038009"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/125676002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/133928008"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/276339004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/35359004"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Specimen source identity (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Specimen source identity</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/118171006 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/118171006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/123038009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:label xml:lang="en">Specimen procedure (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Specimen procedure</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/1230370004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/1230370004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label xml:lang="en">Is vasculature of (attribute)</rdfs:label>
+        <skos:altLabel xml:lang="en">Is blood vessel of</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Is vasculature of</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/127489000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/127489000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762951001"/>
+        <rdfs:label xml:lang="en">Has active ingredient (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">The clinically relevant part or whole of the substance that is intended to have a therapeutic action on or within the body. It excludes esters, salts or other non-covalent derivatives (such as a complex, chelate etc.), but may include secondary modifications.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has active ingredient</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/131195008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/131195008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label xml:lang="en">Subject of information (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Subject of information</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246075003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246075003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/47429007"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/410607006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/78621006"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Causative agent (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Causative agent</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246090004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246090004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/413350009"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Associated finding (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Associated finding</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246093002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246093002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/363787002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/386053000"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123037004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123038009"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/410607006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/419891008"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Component (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Component</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246112005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246112005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/404684003"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/272141005"/>
+        <rdfs:label xml:lang="en">Severity (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Severity</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246454002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246454002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://snomed.info/id/282032007"/>
+        <rdfs:label xml:lang="en">Occurrence (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Occurrence</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246456000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246456000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/404684003"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/288526004"/>
+        <rdfs:label xml:lang="en">Episodicity (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Episodicity</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246501002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246501002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/254291000"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/272394005"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Technique (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute is used to specify the systematic method of a procedure used to accomplish a specific activity.</skos:definition>
+        <skos:prefLabel xml:lang="en">Technique</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246513007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246513007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/255231005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/257958009"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/261424001"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Revision status (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Revision status</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/246514001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/246514001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/767524001"/>
+        <rdfs:label xml:lang="en">Units (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the units used in assigning a value to an observation.</skos:definition>
+        <skos:prefLabel xml:lang="en">Units</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/255234002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/255234002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/726633004"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">After (attribute)</rdfs:label>
+        <skos:altLabel xml:lang="en">Following</skos:altLabel>
+        <skos:prefLabel xml:lang="en">After</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/260507000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/260507000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/309795001"/>
+        <rdfs:label xml:lang="en">Access (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Access</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/260686004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/260686004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/129264002"/>
+        <rdfs:label xml:lang="en">Method (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Method</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/260870009 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/260870009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/272125009"/>
+        <rdfs:label xml:lang="en">Priority (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Priority</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/263502005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/263502005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/404684003"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/288524001"/>
+        <rdfs:label xml:lang="en">Clinical course (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Clinical course</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/272741003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/272741003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/91723000"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/182353008"/>
+        <rdfs:label xml:lang="en">Laterality (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Laterality</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/288556008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/288556008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/726633004"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Before (attribute)</rdfs:label>
+        <skos:altLabel xml:lang="en">Preceding</skos:altLabel>
+        <skos:altLabel xml:lang="en">Prior to</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Before</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/320091000221107 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/320091000221107">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/767524001"/>
+        <rdfs:label xml:lang="en">Unit of presentation size unit (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute defines the unit of a unit of presentation size.</skos:definition>
+        <skos:prefLabel xml:lang="en">Unit of presentation size unit</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363589002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363589002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/129125009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:label xml:lang="en">Associated procedure (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Associated procedure</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363698007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363698007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/404684003"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/442083009"/>
+        <rdfs:label xml:lang="en">Finding site (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Finding site</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363699004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363699004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/405815000"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:label xml:lang="en">Direct device (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Direct device</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363700003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363700003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/405816004"/>
+        <rdfs:label xml:lang="en">Direct morphology (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Direct morphology</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363701004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363701004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Direct substance (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Direct substance</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363702006 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363702006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Has focus (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has focus</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363703001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363703001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/363675004"/>
+        <rdfs:label xml:lang="en">Has intent (attribute)</rdfs:label>
+        <skos:altLabel xml:lang="en">Intent</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Has intent</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363704007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363704007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/442083009"/>
+        <rdfs:label xml:lang="en">Procedure site (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Procedure site</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363705008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363705008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label xml:lang="en">Has definitional manifestation (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has definitional manifestation</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363709002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363709002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/405816004"/>
+        <rdfs:label xml:lang="en">Indirect morphology (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Indirect morphology</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363710007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363710007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/405815000"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:label xml:lang="en">Indirect device (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Indirect device</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363713009 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363713009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/404684003"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/260245000"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/263714004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/308916002"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Has interpretation (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has interpretation</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/363714003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/363714003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/404684003"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/108252007"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/363787002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/386053000"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Interprets (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Interprets</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370129005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370129005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/386053000"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/127789004"/>
+        <rdfs:label xml:lang="en">Measurement method (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Measurement method</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370130000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370130000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/363787002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/386053000"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://snomed.info/id/118598001"/>
+        <rdfs:label xml:lang="en">Property (attribute)</rdfs:label>
+        <skos:definition xml:lang="en-us">This attribute is used to specify the type of inherent quality, function, disposition or process characteristic that is being observed or measured. Its values are abstract types of quality (length, odor, concentration) or abstract types of process characteristic (rate, speed, duration), and do not include qualities that are located (length of arm, odor of urine), or given a value (elevated concentration).</skos:definition>
+        <skos:definition xml:lang="en-gb">This attribute is used to specify the type of inherent quality, function, disposition or process characteristic that is being observed or measured. Its values are abstract types of quality (length, odour, concentration) or abstract types of process characteristic (rate, speed, duration), and do not include qualities that are located (length of arm, odour of urine), or given a value (elevated concentration).</skos:definition>
+        <skos:prefLabel xml:lang="en">Property</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370131001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370131001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/125676002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/133928008"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/35359004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/389109008"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Recipient category (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Recipient category</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370132008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370132008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/363787002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/386053000"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/117362005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/117363000"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/117364006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/117365007"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/117444000"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/26716007"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/30766002"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Scale type (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute refers to the scale of the result of an observation or a diagnostic test.</skos:definition>
+        <skos:prefLabel xml:lang="en">Scale type</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370133003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370133003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/123038009"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Specimen substance (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Specimen substance</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370134009 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370134009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/363787002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/386053000"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://snomed.info/id/7389001"/>
+        <rdfs:label xml:lang="en">Time aspect (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Time aspect</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/370135005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/370135005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/404684003"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/1495041000004108"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/308490002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/441862004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/472963003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/769247005"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Pathological process (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Pathological process</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/371881003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/371881003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/726633004"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/biotop/btl2.owl#Action"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">During (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">During</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/405813007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/405813007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/363704007"/>
+        <rdfs:label xml:lang="en">Procedure site - Direct (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Procedure site - Direct</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/405814001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/405814001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/363704007"/>
+        <rdfs:label xml:lang="en">Procedure site - Indirect (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Procedure site - Indirect</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/405815000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/405815000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/363787002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://snomed.info/id/49062001"/>
+        <rdfs:label xml:lang="en">Procedure device (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Procedure device</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/405816004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/405816004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/49755003"/>
+        <rdfs:label xml:lang="en">Procedure morphology (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Procedure morphology</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/408729009 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/408729009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/413350009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/410514004"/>
+        <rdfs:label xml:lang="en">Finding context (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Finding context</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/408730004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/408730004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/129125009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/288532009"/>
+        <rdfs:label xml:lang="en">Procedure context (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Procedure context</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/408731000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/408731000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/243796009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/410510008"/>
+        <rdfs:label xml:lang="en">Temporal context (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Temporal context</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/408732007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/408732007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/243796009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/125676002"/>
+        <rdfs:label xml:lang="en">Subject relationship context (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Subject relationship context</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/410675002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/410675002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/433590000"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/284009009"/>
+        <rdfs:label xml:lang="en">Route of administration (attribute)</rdfs:label>
+        <skos:altLabel xml:lang="en">Route of administration - attribute</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Route of administration</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/411116001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/411116001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/736542009"/>
+        <rdfs:label xml:lang="en">Has manufactured dose form (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has manufactured dose form</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/418775008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/418775008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/404684003"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:label xml:lang="en">Finding method (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Finding method</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/419066007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/419066007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/404684003"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/419358007"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/420158005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/444018008"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Finding informer (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Finding informer</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/424226004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/424226004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/405815000"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/363787002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://snomed.info/id/49062001"/>
+        <rdfs:label xml:lang="en">Using device (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Using device</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/424244007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/424244007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/78621006"/>
+        <rdfs:label xml:lang="en">Using energy (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Using energy</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/424361007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/424361007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/105590001"/>
+        <rdfs:label xml:lang="en">Using substance (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Using substance</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/424876005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/424876005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/387713003"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/103379005"/>
+        <rdfs:label xml:lang="en">Surgical approach (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Surgical approach</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/425391005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/425391005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/424226004"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:label xml:lang="en">Using access device (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Using access device</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/42752001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/42752001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/47429007"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Due to (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Due to</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/47429007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/47429007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/410607006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/78621006"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Associated with (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Associated with</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/609096000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/609096000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label xml:lang="en">Role group (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Role group</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704319004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704319004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123037004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123038009"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/125676002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/410607006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/419891008"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Inheres in (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the independent continuant which bears the quality, and on which the dependent quality (of this observable) depends.</skos:definition>
+        <skos:prefLabel xml:lang="en">Inheres in</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704320005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704320005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123037004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123038009"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/410607006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/419891008"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Towards (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute is used to specify the third element of a relational quality, the first two elements being the type of property and the entity in which the quality inheres. The type of property is typically a concentration, and the entity in which it inheres is typically a fluid such as plasma, serum or blood. The third element typically is the substance or molecule that is the thing being measured as a concentration. The concentration of sodium in blood would be &quot;property type&quot; concentration, &quot;towards&quot; sodium, &quot;inheres in&quot; blood.</skos:definition>
+        <skos:prefLabel xml:lang="en">Towards</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704321009 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704321009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/719982003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Characterizes (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the process which the property describes, and on which the property (of this observable) depends. The process can be very general.</skos:definition>
+        <skos:prefLabel xml:lang="en">Characterizes</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704322002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704322002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123037004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/410607006"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Process agent (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute is used to specify the continuant (such as a body structure or organism) that is causally active in the process on which the property depends.</skos:definition>
+        <skos:prefLabel xml:lang="en">Process agent</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704323007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704323007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/7389001"/>
+        <rdfs:label xml:lang="en">Process duration (attribute)</rdfs:label>
+        <skos:definition xml:lang="en-gb">This attribute specifies the duration of the process characterised by the observable property type.</skos:definition>
+        <skos:definition xml:lang="en-us">This attribute specifies the duration of the process characterized by the observable property type.</skos:definition>
+        <skos:prefLabel xml:lang="en">Process duration</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704324001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704324001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/719982003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Process output (attribute)</rdfs:label>
+        <skos:definition xml:lang="en-gb">This attribute specifies the resulting output of the process characterised by the observed feature.</skos:definition>
+        <skos:definition xml:lang="en-us">This attribute specifies the resulting output of the process characterized by the observed feature.</skos:definition>
+        <skos:prefLabel xml:lang="en">Process output</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704325000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704325000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123037004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123038009"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/410607006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/419891008"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Relative to (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute is used to specify the denominator of a relational property type, such as a ratio or proportion.</skos:definition>
+        <skos:prefLabel xml:lang="en">Relative to</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704326004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704326004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/703763000"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Precondition (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute is used to specify body state, timing, challenges, and other situations that must be true of the entity to be observed.</skos:definition>
+        <skos:prefLabel xml:lang="en">Precondition</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704327008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704327008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123037004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123038009"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/410607006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/419891008"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Direct site (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the specific entity on which the observation is directly made, and is used when the observation is indirect, such as when a direct observation is not possible to be done on the entity in which the observable inheres.</skos:definition>
+        <skos:prefLabel xml:lang="en">Direct site</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704346009 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704346009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label xml:lang="en">Specified by (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the observation procedure that defines an observable entity.</skos:definition>
+        <skos:prefLabel xml:lang="en">Specified by</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704347000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704347000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label xml:lang="en">Observes (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the direct object of an observation procedure.</skos:definition>
+        <skos:prefLabel xml:lang="en">Observes</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/704647008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/704647008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label xml:lang="en">Is about (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute links an information entity to the non-information entity to which it refers, i.e. the thing it is about.</skos:definition>
+        <skos:prefLabel xml:lang="en">Is about</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/718497002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/718497002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123037004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123038009"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/410607006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/419891008"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Inherent location (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the location of the entity specified by the attribute &quot;Inheres in&quot;.</skos:definition>
+        <skos:prefLabel xml:lang="en">Inherent location</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/719715003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/719715003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/363787002"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/105590001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123037004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/123038009"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/260787004"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/373873005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/410607006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/419891008"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Relative to part of (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute is used to specify the denominator of a relative relational property type, such as a ratio of ratios</skos:definition>
+        <skos:prefLabel xml:lang="en">Relative to part of</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/719722006 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/719722006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/363787002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/719982003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Has realization (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the realization of a function</skos:definition>
+        <skos:prefLabel xml:lang="en">Has realization</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/726542003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/726542003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/105590001"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/726711005"/>
+        <rdfs:label xml:lang="en">Has disposition (attribute)</rdfs:label>
+        <skos:definition xml:lang="en-us">This attribute specifies the behavior that a substance will exhibit or participate in, given the appropriate context.</skos:definition>
+        <skos:definition xml:lang="en-gb">This attribute specifies the behaviour that a substance will exhibit or participate in, given the appropriate context.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has disposition</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/726633004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/726633004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/47429007"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272379006"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/404684003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">Temporally related to (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">A period of time occurring before, during and or after a clinical entity</skos:definition>
+        <skos:prefLabel xml:lang="en">Temporally related to</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/732943007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/732943007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/105590001"/>
+        <rdfs:label xml:lang="en">Has basis of strength substance (attribute)</rdfs:label>
+        <skos:altLabel xml:lang="en">Has basis of strength substance</skos:altLabel>
+        <skos:definition xml:lang="en">This attribute represents an ingredient that is the part of the active ingredient that the strength of a given product is based upon.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has BoSS</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/732945000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/732945000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/767524001"/>
+        <rdfs:label xml:lang="en">Has presentation strength numerator unit (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the numerator unit for the presentation strength of a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has presentation strength numerator unit</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/732947008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/732947008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/767524001"/>
+        <rdfs:label xml:lang="en">Has presentation strength denominator unit (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the denominator unit for the presentation strength of a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has presentation strength denominator unit</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733722007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733722007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/767524001"/>
+        <rdfs:label xml:lang="en">Has concentration strength denominator unit (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the denominator unit for the concentration strength of a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has concentration strength denominator unit</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733725009 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733725009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/767524001"/>
+        <rdfs:label xml:lang="en">Has concentration strength numerator unit (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the numerator unit for the concentration strength of a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has concentration strength numerator unit</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733928003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733928003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/123037004"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/123037004"/>
+        <rdfs:label xml:lang="en">All or part of (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">All or part of</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733930001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733930001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/774081006"/>
+        <rdfs:label xml:lang="en">Regional part of (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Regional part of</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733931002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733931002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/774081006"/>
+        <rdfs:label xml:lang="en">Constitutional part of (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Constitutional part of</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733932009 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733932009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/774081006"/>
+        <rdfs:label xml:lang="en">Systemic part of (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Systemic part of</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/733933004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/733933004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/733930001"/>
+        <rdfs:label xml:lang="en">Lateral half of (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Lateral half of</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/734136001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/734136001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label xml:lang="en">Contained in (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Contained in</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/734137005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/734137005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:label xml:lang="en">Tributary of (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Tributary of</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736472000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736472000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/736542009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/736665006"/>
+        <rdfs:label xml:lang="en">Has dose form administration method (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has dose form administration method</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736473005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736473005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/736542009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/736477006"/>
+        <rdfs:label xml:lang="en">Has dose form transformation (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has dose form transformation</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736474004 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736474004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/736542009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/736479009"/>
+        <rdfs:label xml:lang="en">Has dose form intended site (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has dose form intended site</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736475003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736475003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/736542009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/736480007"/>
+        <rdfs:label xml:lang="en">Has dose form release characteristic (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has dose form release characteristic</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736476002 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736476002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/736542009"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/736478001"/>
+        <rdfs:label xml:lang="en">Has basic dose form (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has basic dose form</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/736518005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/736518005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/736478001"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/736471007"/>
+        <rdfs:label xml:lang="en">Has state of matter (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has state of matter</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/738774007 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/738774007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/105590001"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/105590001"/>
+        <rdfs:label xml:lang="en">Is modification of (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute indicates that the concept is a structural modification of another concept.</skos:definition>
+        <skos:prefLabel xml:lang="en">Is modification of</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/762705008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/762705008"/>
+    
+
+
+    <!-- http://snomed.info/id/762949000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/762949000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/127489000"/>
+        <rdfs:label xml:lang="en">Has precise active ingredient (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">The most specific description of a substance present in the manufactured dose form, before any dilution or transformation. It includes modifiers, such as salts, esters, polymers (e.g. pegylation), and/or solvates (including waters of hydration).</skos:definition>
+        <skos:prefLabel xml:lang="en">Has precise active ingredient</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/762951001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/762951001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/105590001"/>
+        <rdfs:label xml:lang="en">Has ingredient (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has ingredient</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/763032000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/763032000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/732935002"/>
+        <rdfs:label xml:lang="en">Has unit of presentation (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Has unit of presentation</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/766939001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/766939001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/766940004"/>
+        <rdfs:label xml:lang="en">Plays role (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Plays role</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/774081006 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/774081006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/733928003"/>
+        <rdfs:label xml:lang="en">Proper part of (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Proper part of</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/774158006 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/774158006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/774167006"/>
+        <rdfs:label xml:lang="en">Has product name (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">Attribute used to assign the authorized product name.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has product name</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/774159003 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/774159003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/774164004"/>
+        <rdfs:label xml:lang="en">Has supplier (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">Attribute used to assign the holder of the marketing authorization or authorization for supply.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has supplier</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/774160008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/774160008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/781405001"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/763158003"/>
+        <rdfs:label xml:lang="en">Contains clinical drug (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">Attribute used to assign the clinical drug that is contained in the packaged product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Contains clinical drug</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/774163005 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/774163005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/781405001"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/767524001"/>
+        <rdfs:label xml:lang="en">Has pack size unit (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">Attribute used to specify the units for the amount or quantity of clinical drug present in the package.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has pack size unit</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/827081001 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/827081001">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/260787004"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/105590001"/>
+        <rdfs:label xml:lang="en">Has filling (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the material or substance that fills an object.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has filling</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/836358009 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/836358009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/260787004"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/123037004"/>
+        <rdfs:label xml:lang="en">Has device intended site (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the site where the device is intended to reside in or on the body.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has device intended site</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/840560000 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/840560000">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/260787004"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/105590001"/>
+        <rdfs:label xml:lang="en">Has compositional material (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the material or substance of which an object is composed.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has compositional material</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/860779006 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/860779006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label xml:lang="en">Has ingredient characteristic (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents a characteristic that is applicable to a particular ingredient contained in a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has ingredient characteristic</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://snomed.info/id/860781008 -->
+
+    <owl:ObjectProperty rdf:about="http://snomed.info/id/860781008">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762705008"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:label xml:lang="en">Has product characteristic (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents a characteristic that is applicable to a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has product characteristic</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://snomed.info/id/1142135004 -->
+
+    <owl:DatatypeProperty rdf:about="http://snomed.info/id/1142135004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762706009"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label xml:lang="en">Has presentation strength numerator value (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the numerator value for the presentation strength of a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has presentation strength numerator value</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://snomed.info/id/1142136003 -->
+
+    <owl:DatatypeProperty rdf:about="http://snomed.info/id/1142136003">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762706009"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label xml:lang="en">Has presentation strength denominator value (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the denominator value for the presentation strength of a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has presentation strength denominator value</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://snomed.info/id/1142137007 -->
+
+    <owl:DatatypeProperty rdf:about="http://snomed.info/id/1142137007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762706009"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label xml:lang="en">Has concentration strength denominator value (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the denominator value for the concentration strength of a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has concentration strength denominator value</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://snomed.info/id/1142138002 -->
+
+    <owl:DatatypeProperty rdf:about="http://snomed.info/id/1142138002">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762706009"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label xml:lang="en">Has concentration strength numerator value (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute specifies the numerator value for the concentration strength of a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has concentration strength numerator value</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://snomed.info/id/1142139005 -->
+
+    <owl:DatatypeProperty rdf:about="http://snomed.info/id/1142139005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762706009"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">Count of base of active ingredient (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the number of different non-modified base of active ingredients in a medicinal product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Count of base of active ingredient</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://snomed.info/id/1142140007 -->
+
+    <owl:DatatypeProperty rdf:about="http://snomed.info/id/1142140007">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762706009"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">Count of active ingredient (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the number of active ingredients or precise active ingredients in a medicinal product. It is simply a count of attribute &apos;has active ingredient&apos; or &apos;has precise active ingredient&apos; in a concept definition.</skos:definition>
+        <skos:prefLabel xml:lang="en">Count of active ingredient</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://snomed.info/id/1142141006 -->
+
+    <owl:DatatypeProperty rdf:about="http://snomed.info/id/1142141006">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762706009"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">Count of base and modification pair (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the number of different base and modification pairs in a medicinal product. If both bases and their modifications are the same, it is counted as 1 pair. The count is increased when the bases are the same but their modifications are different, for two or more pairs. Any further modification should not be counted as part of the pair.</skos:definition>
+        <skos:prefLabel xml:lang="en">Count of base and modification pair</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://snomed.info/id/1142142004 -->
+
+    <owl:DatatypeProperty rdf:about="http://snomed.info/id/1142142004">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762706009"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/781405001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">Has pack size (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">Attribute used to specify the amount or quantity of clinical drug present in the package.</skos:definition>
+        <skos:prefLabel xml:lang="en">Has pack size</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://snomed.info/id/1142143009 -->
+
+    <owl:DatatypeProperty rdf:about="http://snomed.info/id/1142143009">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762706009"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/781405001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label xml:lang="en">Count of clinical drug type (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents the number of different types of clinical drugs in a medicinal product package.</skos:definition>
+        <skos:prefLabel xml:lang="en">Count of clinical drug type</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://snomed.info/id/1148793005 -->
+
+    <owl:DatatypeProperty rdf:about="http://snomed.info/id/1148793005">
+        <rdfs:subPropertyOf rdf:resource="http://snomed.info/id/762706009"/>
+        <rdfs:domain rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label xml:lang="en">Unit of presentation size quantity (attribute)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute-value defines the quantity of a unit of presentation size.</skos:definition>
+        <skos:prefLabel xml:lang="en">Unit of presentation size quantity</skos:prefLabel>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://snomed.info/id/762706009 -->
+
+    <owl:DatatypeProperty rdf:about="http://snomed.info/id/762706009"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#Action -->
+
+    <owl:Class rdf:about="http://purl.org/biotop/btl2.owl#Action"/>
+    
+
+
+    <!-- http://snomed.info/id/103379005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/103379005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/309825002"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Procedural approach (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Approaches</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Procedural approach</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/105590001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/105590001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Substance (substance)</rdfs:label>
+        <skos:altLabel xml:lang="en">Substances</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Substance</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/105904009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/105904009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Type of drug preparation (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Type of drug preparation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/106232001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/106232001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272099008"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Adjectival modifier (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Adjectival modifier</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/106234000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/106234000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106232001"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">General adjectival modifier (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">General adjectival modifier</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/106237007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/106237007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/900000000000441003"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Linkage concept (linkage concept)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Linkage concept</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/106239005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/106239005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Modifier mainly for procedure (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Modifier mainly for procedure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/108252007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/108252007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Laboratory procedure (procedure)</rdfs:label>
+        <skos:altLabel xml:lang="en">Laboratory procedures</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Laboratory procedure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/1119301001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/1119301001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106234000"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Boolean value (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Boolean value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/1149484003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/1149484003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Ingredient qualitative strength (qualifier value)</rdfs:label>
+        <skos:definition xml:lang="en">This attribute represents a proxy for a qualitative strength applicable to a particular ingredient contained in a product.</skos:definition>
+        <skos:prefLabel xml:lang="en">Ingredient qualitative strength</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/117362005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/117362005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/26716007"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Nominal value (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Value expressed as a member of an unordered set</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Nominal value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/117363000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/117363000">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/26716007"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/398195001"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Ordinal value (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Value expressed as a member of an ordered set</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Ordinal value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/117364006 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/117364006">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/278444000"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Narrative value (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Value expressed in narrative form</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Narrative value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/117365007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/117365007">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/398195001"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Ordinal OR quantitative value (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Value expressed as ordinal OR quantitative</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Ordinal OR quantitative value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/117444000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/117444000">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/278444000"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Text value (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Value expressed as a text string</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Text value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/118598001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/118598001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Property (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Property</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/118956008 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/118956008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/123037004"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Body structure, altered from its original anatomical structure (morphologic abnormality)</rdfs:label>
+        <skos:altLabel xml:lang="en">Body structure, altered from its original anatomical structure</skos:altLabel>
+        <skos:altLabel xml:lang="en">Morphologic alteration</skos:altLabel>
+        <skos:altLabel xml:lang="en">Morphologic change</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Morphologically altered structure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/123037004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/123037004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Body structure (body structure)</rdfs:label>
+        <skos:altLabel xml:lang="en">Body structures</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Body structure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/123038009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/123038009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Specimen (specimen)</rdfs:label>
+        <skos:definition xml:lang="en">Material (structure, substance, device) removed from a source (patient, donor, physical location, product)</skos:definition>
+        <skos:prefLabel xml:lang="en">Specimen</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/125676002 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/125676002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/48176007"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Person (person)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Person</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/127789004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/127789004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/108252007"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Laboratory procedure categorized by method (procedure)</rdfs:label>
+        <skos:prefLabel xml:lang="en-gb">Laboratory procedure categorised by method</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-us">Laboratory procedure categorized by method</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129125009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/129125009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/243796009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/363589002"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/71388002"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Procedure with explicit context (situation)</rdfs:label>
+        <skos:altLabel xml:lang="en">Context-dependent procedure</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Procedure with explicit context</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129264002 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/129264002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Action (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Clinical action</skos:altLabel>
+        <skos:altLabel xml:lang="en">Clinical actions</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Action</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129265001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/129265001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/129264002"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Evaluation - action (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Assessment</skos:altLabel>
+        <skos:altLabel xml:lang="en">Evaluation</skos:altLabel>
+        <skos:altLabel xml:lang="en">Patient evaluation - action</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Evaluation - action</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129284003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/129284003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/129264002"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Surgical action (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Surgical action values</skos:altLabel>
+        <skos:altLabel xml:lang="en">Surgical procedure atom</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Surgical action</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/129445006 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/129445006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/129264002"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Administration - action (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Administration - action</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/133928008 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/133928008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/48176007"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Community (social concept)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Community</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/138875005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/138875005">
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">SNOMED CT Concept (SNOMED RT+CTV3)</rdfs:label>
+        <skos:altLabel xml:lang="en">SNOMED CT has been created by combining SNOMED RT and a computer-based nomenclature and classification known as Read Codes Version 3, which was created on behalf of the U.K. Department of Health.</skos:altLabel>
+        <skos:altLabel xml:lang="en">SNOMED Clinical Terms version: 20230430 [R] (April 2023 Release)</skos:altLabel>
+        <skos:altLabel xml:lang="en">© 2002-2023 International Health Terminology Standards Development Organisation (IHTSDO). All rights reserved. SNOMED CT®, was originally created by The College of American Pathologists. &quot;SNOMED&quot; and &quot;SNOMED CT&quot; are registered trademarks of the IHTSDO.</skos:altLabel>
+        <skos:prefLabel xml:lang="en">SNOMED CT Concept</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/1495041000004108 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/1495041000004108">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/308489006"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Proliferation of neoplasm (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Proliferation of neoplasm</skos:altLabel>
+        <skos:definition xml:lang="en">The process of a neoplasm increasing in size and/or spreading.</skos:definition>
+        <skos:prefLabel xml:lang="en">Neoplastic proliferation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/182353008 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/182353008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272424004"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Side (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Side</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/243796009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/243796009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Situation with explicit context (situation)</rdfs:label>
+        <skos:altLabel xml:lang="en">Context-dependent categories</skos:altLabel>
+        <skos:altLabel xml:lang="en">Context-dependent category</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Situation with explicit context</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/246061005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/246061005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106237007"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Attribute (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Attribute</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/254291000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/254291000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Staging and scales (staging scale)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Staging and scales</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/255231005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/255231005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272127001"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Revision - value (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Redo</skos:altLabel>
+        <skos:altLabel xml:lang="en">Revision</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Revision - value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/257958009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/257958009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272127001"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Part of multistage procedure (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Part of multistage procedure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/258349007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/258349007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/303102005"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Grades (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Grades</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/260245000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/260245000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Finding value (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Findings values</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Finding value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/260787004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/260787004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Physical object (physical object)</rdfs:label>
+        <skos:altLabel xml:lang="en-gb">Artefact</skos:altLabel>
+        <skos:altLabel xml:lang="en">Artifact</skos:altLabel>
+        <skos:altLabel xml:lang="en">Objects</skos:altLabel>
+        <skos:altLabel xml:lang="en">Physical objects</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Physical object</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/261424001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/261424001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/399455000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Primary operation (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Primary operation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/263714004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/263714004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272099008"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Colors (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en-us">Colors</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-gb">Colours</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/26716007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/26716007">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/278444000"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Qualitative (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Qualitative</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272099008 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/272099008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Descriptor (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Descriptor</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272103003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/272103003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272099008"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Time patterns (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Time patterns</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272125009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/272125009">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/272103003"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Priorities (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Priorities</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272127001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/272127001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272103003"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Event orders (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Event orders</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272141005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/272141005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/258349007"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Severities (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Severities</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272379006 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/272379006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Event (event)</rdfs:label>
+        <skos:altLabel xml:lang="en">Events</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Event</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272394005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/272394005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Technique (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Technique</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/272424004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/272424004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/309825002"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Relative sites (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Relative sites</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/276339004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/276339004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/308916002"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Environment (environment)</rdfs:label>
+        <skos:altLabel xml:lang="en">Environments</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Environment</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/277367001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/277367001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/272099008"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Nature of procedure values (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Nature of procedure values</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/27821000087106 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/27821000087106">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Product target population (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Product target population</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/278444000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/278444000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Scales type (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Scales type</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/282032007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/282032007">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/307142001"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/703763000"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Periods of life (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Periods of life</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/284009009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/284009009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Route of administration value (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Route of administration values</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Route of administration value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/288524001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/288524001">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272103003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/303102005"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Courses (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Courses</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/288526004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/288526004">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272103003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/303102005"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Episodicities (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Episodicities</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/288529006 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/288529006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Context values (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Context values</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/288532009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/288532009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/288529006"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Context values for actions (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Context values for actions</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/303102005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/303102005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Special disorder atoms (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Special disorder atoms</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/303118004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/303118004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/125676002"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Person in the healthcare environment (person)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Person in the healthcare environment</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/307142001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/307142001">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/272103003"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/303102005"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Temporal periods (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Temporal periods</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/30766002 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/30766002">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/106239005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/398195001"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Quantitative (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Quantitative</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/308489006 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/308489006">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/303102005"/>
+                    <rdf:Description rdf:about="http://snomed.info/id/719982003"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Pathological process (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Pathological process</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/308490002 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/308490002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/308489006"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Pathological developmental process (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Pathological developmental process</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/308916002 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/308916002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Environment or geographical location (environment / location)</rdfs:label>
+        <skos:altLabel xml:lang="en">Environments and geographical locations</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Environment or geographical location</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/309795001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/309795001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/309825002"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Surgical access values (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Surgical access values</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/309825002 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/309825002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Spatial and relational concepts (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Spatial and relational concepts</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/31874001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/31874001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/1119301001"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">True (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">True</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/35359004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/35359004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/48176007"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Family (social concept)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Family</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/362981000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/362981000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Qualifier value (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Qualifier value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/363675004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/363675004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/277367001"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Intents (nature of procedure values) (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Intents (nature of procedure values)</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Intents</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/363787002 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/363787002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Observable entity (observable entity)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Observable entity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/373873005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/373873005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Pharmaceutical / biologic product (product)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Pharmaceutical / biologic product</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/386053000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/386053000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/129265001"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Evaluation procedure (procedure)</rdfs:label>
+        <skos:altLabel xml:lang="en">Assessment</skos:altLabel>
+        <skos:altLabel xml:lang="en">Investigations</skos:altLabel>
+        <skos:definition xml:lang="en">Determination of a value, conclusion, or inference by evaluating evidence</skos:definition>
+        <skos:prefLabel xml:lang="en">Evaluation procedure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/387713003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/387713003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/71388002"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Surgical procedure (procedure)</rdfs:label>
+        <skos:altLabel xml:lang="en">Operation</skos:altLabel>
+        <skos:altLabel xml:lang="en">Operative procedure</skos:altLabel>
+        <skos:altLabel xml:lang="en">Surgery</skos:altLabel>
+        <skos:definition xml:lang="en-gb">Intentional, structural alteration of the human body by mechanical, thermal, light-based, electromagnetic, or chemical means, and/or by the incision or destruction of tissues using instruments to cut, burn, vaporise, freeze, suture, probe, or manipulate by closed reductions.</skos:definition>
+        <skos:definition xml:lang="en-us">Intentional, structural alteration of the human body by mechanical, thermal, light-based, electromagnetic, or chemical means, and/or by the incision or destruction of tissues using instruments to cut, burn, vaporize, freeze, suture, probe, or manipulate by closed reductions.</skos:definition>
+        <skos:prefLabel xml:lang="en">Surgical procedure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/389109008 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/389109008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/48176007"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Group (social concept)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Group</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/398195001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/398195001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/278444000"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Measurement scales (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Measurement scales</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/399455000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/399455000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/277367001"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Primary procedure (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Primary procedure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/404684003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/404684003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Clinical finding (finding)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Clinical finding</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410510008 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/410510008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/288529006"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Temporal context value (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Temporal context value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410514004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/410514004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/288529006"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Finding context value (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Finding context value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410607006 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/410607006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Organism (organism)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Organism</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/410662002 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/410662002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/246061005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Concept model attribute (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Concept model attribute</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/413350009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/413350009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/243796009"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408729009"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410514004"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://snomed.info/id/408731000"/>
+                                <owl:someValuesFrom rdf:resource="http://snomed.info/id/410510008"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Finding with explicit context (situation)</rdfs:label>
+        <skos:altLabel xml:lang="en">Context-dependent finding</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Finding with explicit context</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/416698001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/416698001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106237007"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Link assertion (link assertion)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Link assertion</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/419358007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/419358007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/125676002"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Subject of record or other provider of history (person)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Subject of record or other provider of history</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/419891008 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/419891008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Record artifact (record artifact)</rdfs:label>
+        <skos:altLabel xml:lang="en">Record element</skos:altLabel>
+        <skos:prefLabel xml:lang="en-gb">Record artefact</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-us">Record artifact</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/420158005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/420158005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/303118004"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Performer of method (person)</rdfs:label>
+        <skos:altLabel xml:lang="en">Performer</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Performer of method</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/433590000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/433590000">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/129445006"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://snomed.info/id/410675002"/>
+                                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/284009009"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Administration of substance via specific route (procedure)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Administration of substance via specific route</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/441862004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/441862004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/308489006"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Infectious process (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Infectious process</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/442083009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/442083009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/123037004"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Anatomical or acquired body structure (body structure)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Anatomical or acquired body structure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/444018008 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/444018008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/125676002"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Person with characteristic related to subject of record (person)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Person with characteristic related to subject of record</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/446609009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/446609009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/900000000000441003"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Simple type reference set (foundation metadata concept)</rdfs:label>
+        <skos:altLabel xml:lang="en">Simple type</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Simple type reference set</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/472963003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/472963003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/308489006"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Hypersensitivity process (qualifier value)</rdfs:label>
+        <skos:definition xml:lang="en">An immune or non-immune mediated pathological process that represents the underlying mechanism of hypersensitivity conditions.</skos:definition>
+        <skos:prefLabel xml:lang="en">Hypersensitivity process</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/48176007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/48176007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Social context (social concept)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Social context</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/49062001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/49062001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/260787004"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Device (physical object)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Device</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/49755003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/49755003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/118956008"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Morphologically abnormal structure (morphologic abnormality)</rdfs:label>
+        <skos:altLabel xml:lang="en">Abnormal tissue appearance</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Morphologically abnormal structure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/64100000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/64100000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/1119301001"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">False (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Pseudo</skos:altLabel>
+        <skos:prefLabel xml:lang="en">False</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/703763000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/703763000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Precondition value (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Precondition value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/71388002 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/71388002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Procedure (procedure)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Procedure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/719982003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/719982003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Process (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Process</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/723264001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/723264001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/446609009"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Lateralizable body structure reference set (foundation metadata concept)</rdfs:label>
+        <skos:prefLabel xml:lang="en-gb">Lateralisable body structure reference set</skos:prefLabel>
+        <skos:prefLabel xml:lang="en-us">Lateralizable body structure reference set</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/726711005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/726711005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Disposition (disposition)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Disposition</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/732935002 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/732935002">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/767524001"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Unit of presentation (unit of presentation)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Unit of presentation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/736471007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/736471007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">State of matter (state of matter)</rdfs:label>
+        <skos:prefLabel xml:lang="en">State of matter</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/736477006 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/736477006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Dose form transformation (transformation)</rdfs:label>
+        <skos:definition xml:lang="en">A process where a dose form is transformed from that supplied by the manufacturer into a new dose form. This may occur as part of the dispensing act or immediately before administration.</skos:definition>
+        <skos:prefLabel xml:lang="en">Dose form transformation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/736478001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/736478001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Basic dose form (basic dose form)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Basic dose form</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/736479009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/736479009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Dose form intended site (intended site)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Dose form intended site</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/736480007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/736480007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Dose form release characteristic (release characteristic)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Dose form release characteristic</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/736542009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/736542009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Pharmaceutical dose form (dose form)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Pharmaceutical dose form</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/736665006 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/736665006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Dose form administration method (administration method)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Dose form administration method</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/7389001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/7389001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Time frame (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Time frame</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/762705008 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/762705008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410662002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/762706009 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/762706009">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/410662002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/763158003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/763158003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Medicinal product (product)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Medicinal product</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/766940004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/766940004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Role (role)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Role</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/767524001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/767524001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Unit of measure (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Unit of measure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/769247005 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/769247005">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/308489006"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Abnormal immune process (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Abnormal immune process</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/774164004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/774164004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Supplier (supplier)</rdfs:label>
+        <skos:definition xml:lang="en">The holder of the marketing authorization or authorization for supply.</skos:definition>
+        <skos:prefLabel xml:lang="en">Supplier</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/774167006 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/774167006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/362981000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Product name (product name)</rdfs:label>
+        <skos:definition xml:lang="en">The authorized product name.</skos:definition>
+        <skos:prefLabel xml:lang="en">Product name</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/781405001 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/781405001">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/373873005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Medicinal product package (product)</rdfs:label>
+        <skos:definition xml:lang="en">The abstract representation of a quantified medicinal product as produced by the supplier.</skos:definition>
+        <skos:prefLabel xml:lang="en">Medicinal product package</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/78621006 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/78621006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Physical force (physical force)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Physical force</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/82280004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/82280004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106234000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Smooth (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Smooth</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/860574003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/860574003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/863966007"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Bioabsorbable (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Bioabsorbable</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/860647008 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/860647008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106234000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Textured (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Textured</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/86174004 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/86174004">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/49062001"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Laparoscope, device (physical object)</rdfs:label>
+        <skos:altLabel xml:lang="en">Laparoscope, device</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Laparoscope</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/863965006 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/863965006">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/863967003"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Nonbioabsorbable (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Non-bioabsorbable</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Nonbioabsorbable</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/863966007 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/863966007">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106234000"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Absorbable (qualifier value)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Absorbable</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/863967003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/863967003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106234000"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Nonabsorbable (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Non-absorbable</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Nonabsorbable</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/863968008 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/863968008">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/106234000"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Partially bioabsorbable (qualifier value)</rdfs:label>
+        <skos:altLabel xml:lang="en">Partially-bioabsorbable</skos:altLabel>
+        <skos:prefLabel xml:lang="en">Partially bioabsorbable</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/900000000000441003 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/900000000000441003">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/138875005"/>
+        <rdfs:comment>Supporting concept</rdfs:comment>
+        <rdfs:label xml:lang="en">SNOMED CT Model Component (metadata)</rdfs:label>
+        <skos:prefLabel xml:lang="en">SNOMED CT Model Component</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://snomed.info/id/91723000 -->
+
+    <owl:Class rdf:about="http://snomed.info/id/91723000">
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/442083009"/>
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Anatomical structure (body structure)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Anatomical structure</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/762705008">
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Concept model object attribute (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Concept model object attribute</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://snomed.info/id/762706009">
+        <rdfs:comment>Focus concept</rdfs:comment>
+        <rdfs:label xml:lang="en">Concept model data attribute (attribute)</rdfs:label>
+        <skos:prefLabel xml:lang="en">Concept model data attribute</skos:prefLabel>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/260686004"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/129284003"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/387713003"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://snomed.info/id/71388002"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://snomed.info/id/609096000"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://snomed.info/id/424226004"/>
+                        <owl:someValuesFrom rdf:resource="http://snomed.info/id/86174004"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://snomed.info/id/387713003"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+

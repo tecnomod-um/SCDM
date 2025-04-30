@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/catimc/ontologies/2023/3/untitled-ontology-32#"
+     xml:base="http://www.semanticweb.org/catimc/ontologies/2023/3/untitled-ontology-32"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/catimc/SCT_BTL2_2023">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/catimc/SCT_BTL2_2023/1.0"/>
+        <owl:imports rdf:resource="http://purl.org/biotop/btl2.owl"/>
+        <owl:imports rdf:resource="http://snomed.info/sct/MRCM_constraints/1.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#hasPart -->
+
+    <rdf:Description rdf:about="http://purl.org/biotop/btl2.owl#hasPart">
+        <owl:equivalentProperty rdf:resource="http://snomed.info/id/609096000"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#precedes -->
+
+    <rdf:Description rdf:about="http://purl.org/biotop/btl2.owl#precedes">
+        <owl:equivalentProperty rdf:resource="http://snomed.info/id/255234002"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/116676008 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/116676008">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/116686009 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/116686009">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/127489000 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/127489000">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/246075003 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/246075003">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#isCausedBy"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/246093002 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/246093002">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/246454002 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/246454002">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#projectsOnto"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/260507000 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/260507000">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/260686004 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/260686004">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#includes"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/272741003 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/272741003">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/363698007 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/363698007">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/363701004 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/363701004">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/363704007 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/363704007">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/405815000 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/405815000">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/424226004 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/424226004">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/704326004 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/704326004">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#Organism -->
+
+    <rdf:Description rdf:about="http://purl.org/biotop/btl2.owl#Organism">
+        <owl:equivalentClass rdf:resource="http://snomed.info/id/410607006"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/105590001 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/105590001">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.org/biotop/btl2.owl#AmountOfPureSubstance"/>
+                    <rdf:Description rdf:about="http://purl.org/biotop/btl2.owl#CompoundOfCollectiveMaterialEntities"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/123038009 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/123038009">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#PolyMolecularCompositeEntity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/254291000 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/254291000">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/260787004 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/260787004">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#PolyMolecularCompositeEntity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/272379006 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/272379006">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Process"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/308916002 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/308916002">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#PolyMolecularCompositeEntity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/363787002 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/363787002">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/373873005 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/373873005">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#PolyMolecularCompositeEntity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/419891008 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/419891008">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#InformationObject"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/71388002 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/71388002">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Process"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://snomed.info/id/78621006 -->
+
+    <rdf:Description rdf:about="http://snomed.info/id/78621006">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Quality"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
