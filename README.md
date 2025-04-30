@@ -22,4 +22,4 @@ On the other hand, the next figure depicts an example of **ObservationResultStat
 
 This model was initially proposed as an outcome of the SemanticHealthNet Network of Excellence (NoE), and later refined within the [Precise4Q project](https://precise4q.eu/), where it was formalized as the Semantic Common Data Model (SCDM).
 
-Now it is being used within [STRATIF-AI](https://stratif-ai.eu) and [RES-Q[+]().](https://www.resqplus.eu)
+Now it is being used within [STRATIF-AI](https://stratif-ai.eu) and [RES-QPLUS](https://www.resqplus.eu).
